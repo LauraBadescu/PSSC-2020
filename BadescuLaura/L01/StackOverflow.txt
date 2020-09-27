@@ -1,2 +1,32 @@
-test
-test2
+Stack Overflow este un site web despre problemele întâmpinate de programatori.
+Comunicarea se realizează cu ajutorul unui forum, unde programatorii adresează anumite întrebări legate de eventualele erori apărute într-un cod, iar programatorii care știu răspunsul, îl exprimă.
+Această platformă pune la dispoziție întrebările și răspunsurile programatorilor atât în mod public, cât și în mediu privat pentru colegii dintr-un anumit proiect. Pe lângă cele menționate anterior, Stack Overflow este o soluție pentru a găsi un loc de muncă în domeniul IT.
+Exemple de funcționalități:
+        -Crearea contului personal și logarea pe site;
+        -Postarea întrebărilor;
+        -Postarea răspunsurilor;
+        -Căutarea întrebărilor cu ajutorul etichetei "search";
+        -Cei care frecventează acest site pentru soluții văd răspunsurile fără a avea nevoie de logare. Doar dacă vor să pună o întrebare sau să răspundă trebuie să se logheze;
+   
+Exemplu aplicație:
+       Dezvoltarea unei aplicații care generează cărți de arduri/legitimații. Se va emite un fișier imagine sub forma unui card, după introducerea datelor personale și captarea imaginii de către camera video.
+Definirea cerințelor de utilizator:
+    -Pentru fiecare câmp introdus se vor face validări. În cazul în care datele introduse nu sunt corecte, utilizatorul primește un mesaj de avertizare. Mesajul de avertizare îi va atrage atenția că datele introduse nu sunt corecte și recepționează indicații cu forme corecte pentru fiecare câmp. Validările se referă la următoarele aspecte:
+	Numele să înceapă cu majusculă.
+	Prenumele să înceapă cu majusculă.
+	CNP-ul să conțină 13 caractere.
+	E-mail-ul să conțină extensia specifică( ex. @yahoo.com, @gmail.com, @icloud.com)
+        -Datele care se referă la universitate, facultate sau an trebuie să conțină cel puțin trei categorii de fiecare câmp. De exemplu, utilizatorul alege:
+                               - de la ce universitate este selectând UPT, UVT sau UMFT
+                                -la ce facultate studiază: Automatică și Calculatoare, Informatică, Electronică și Telecomunicații, Facultatea de Fizică, Facultatea de Drept, Facultatea de Litere, Stomatologie, Medicină Generală, Farmacie
+                                -anul de studiu: I, II, III, IV, V, VI
+
+       -Poza cardului va fi capturată pe loc după pornirea camerei computer-ului.
+       -Utilizatorul poate aplica pozei patru filtre: Sepia, Blurring, Sharpen Warm și Sharpen Cold. Acesta poate modifica luminozitatea din poza.
+       -Toate datele vor fi salvate într-o bază de date la apăsarea butonului de salvare( salvarea se face doar dacă datele sunt valide).
+       -Imaginea de fundal a cardului va fi stabilită de utilizator. Acesta va putea selecta imaginea de fundal pentru card.
+       -CNP-ul nu se afișează pe card.
+  
+     -Se va genera un fișier tip .jpg cu cardul utilizatorului la apăsarea butonului ,,buton card”, iar dacă este bifată previzualizarea acest fișier se va deschide.
+
+     
